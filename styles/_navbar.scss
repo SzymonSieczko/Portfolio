@@ -1,0 +1,47 @@
+nav{
+position: fixed;
+z-index: 2;
+width: 100%;
+
+    .navbar{
+        margin:0;
+        padding-right: 2rem;
+        background-color: $dark-red;
+        height:5rem;
+        list-style: none;
+        color: white;
+        border-bottom: solid black 2px;
+    
+        li{
+            box-sizing: border-box;
+            margin:0;
+            cursor: pointer;
+            height:100%;
+            transition: 100ms ease-in-out;
+    
+    
+            &:hover{
+                background-color: $blue;
+            }
+        }
+    
+        a{
+            display: inline-block;
+            height: 100%;
+            padding:1.5rem;
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: white;
+            &:visited{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        
+    
+    }
+
+}
+
+
+

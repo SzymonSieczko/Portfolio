@@ -1,0 +1,49 @@
+footer{
+    background-color: $bg-grey;
+    color:white;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+    h2{
+        font-size: 4rem;
+        margin:0;
+    }
+    p{
+        font-style: italic;
+        font-size: 1.1rem;
+        margin-top: 7px;
+        margin-bottom: 2rem;
+    }
+
+    ul{
+        list-style: none;
+
+
+        a{
+            text-decoration: none;
+            font-size: 1.4rem;
+            text-shadow: 2px 2px black;
+            &:visited{
+                text-decoration: none;
+                color:white;
+            }
+
+            i{
+                padding-right: 7px;
+            }
+        }
+        li{
+            transition: 300ms ease-out;
+
+            &:hover{
+                margin-top: 7px;
+            }
+    
+            &:not(:last-child){
+                margin-right: 40px;
+            }
+        }
+
+        
+    }
+}
